@@ -1,4 +1,5 @@
 //作者:第四梦境
+//MIT协议，可修改，可商用
 Scene_Boot.prototype.start = function() {
     Scene_Base.prototype.start.call(this);
     SoundManager.preloadImportantSounds();
